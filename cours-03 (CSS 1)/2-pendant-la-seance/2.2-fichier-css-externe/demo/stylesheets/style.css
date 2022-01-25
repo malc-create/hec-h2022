@@ -1,0 +1,14 @@
+p {
+	color: blue;
+}
+.paragraphe-impair {
+	background-color: lightblue;
+}
+span, #paragraphe-large {
+	font-size: 1.3em;
+}
+#deuxieme-paragraphe {
+	border: 1px solid purple;
+	background-color: lightcoral;
+	width: 50%;
+}
