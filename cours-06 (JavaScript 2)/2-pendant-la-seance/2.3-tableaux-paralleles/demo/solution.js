@@ -23,11 +23,17 @@ var evaluations = [
 ];
 
 var monIndex = 1;
+console.log(produits[monIndex]);
+console.log(prix[monIndex]);
+console.log(evaluations[monIndex]);
+
+console.log('----------------');
 
 for (var i = 0; i < prix.length; i = i + 1) {
-	if (prix[i] > 100) {
-		console.log(produits[i]);
-	}
+	console.log(produits[i]);
+	console.log(prix[i]);
+	console.log(evaluations[i]);
+	console.log('-----');
 }
 
 
