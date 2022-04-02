@@ -13,15 +13,10 @@
             <div class="col-8">
                 
                 <!-- La table des données -->
-                <?php include 'table.html.php'; ?>
+                <?php include'table.html.php'; ?>
                 
             </div>
         </div>
     </div>
 </body>
 </html>
-
-
-
-
-
