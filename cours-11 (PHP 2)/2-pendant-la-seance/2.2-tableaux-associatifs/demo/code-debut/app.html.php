@@ -19,7 +19,16 @@
 		            </thead>
 		            <tbody>
 		            	<!-- Venons ajouter les deux cours à notre table HTML... -->
-
+		            	<tr>
+		            		<td><?php echo $cours_A['date']; ?></td>
+		            		<td><?php echo $cours_A['instructeur']; ?></td>
+		            		<td><?php echo $cours_A['titre']; ?></td>
+		            	</tr>
+		            	<tr>
+		            		<td><?php echo $cours_B['date']; ?></td>
+		            		<td><?php echo $cours_B['instructeur']; ?></td>
+		            		<td><?php echo $cours_B['titre']; ?></td>
+		            	</tr>
 		            </tbody>
 				</table>
 			</div>
@@ -27,3 +36,5 @@
 	</div>
 </body>
 </html>
+
+
